@@ -2,6 +2,7 @@ package com.example.bankuishchallenge.mainscreen.data.model
 
 
 import androidx.annotation.Keep
+import com.example.bankuishchallenge.core.model.Owner
 import java.io.Serializable
 
 @Keep
@@ -81,5 +82,6 @@ data class RepositoriesItemModel(
     val visibility: String,
     val watchers: Int,
     val watchers_count: Int,
-    val web_commit_signoff_required: Boolean
+    val web_commit_signoff_required: Boolean,
+    val owner: Owner
 ) : Serializable

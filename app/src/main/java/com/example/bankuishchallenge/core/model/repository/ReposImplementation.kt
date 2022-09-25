@@ -9,9 +9,9 @@ import retrofit2.Response
 import javax.inject.Inject
 
 
-class ReposImplementation @Inject constructor (
+class ReposImplementation @Inject constructor(
     private val api: RepositoriesApiService
-        ) : GetReposRepository {
+) : GetReposRepository {
     override suspend fun getRepos(): Response<ReposListResponse> {
 
         return withContext(Dispatchers.IO) {
