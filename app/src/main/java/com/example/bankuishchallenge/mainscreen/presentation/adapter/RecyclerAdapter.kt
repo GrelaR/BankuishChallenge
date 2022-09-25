@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater.from
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.bankuishchallenge.core.BaseViewHolder
 import com.example.bankuishchallenge.databinding.RepositorieItemBinding
 import com.example.bankuishchallenge.mainscreen.data.model.RepositoriesItemModel
@@ -23,8 +24,13 @@ class RecyclerAdapter(private val context: Context, private val listRepos: List<
 
     inner class ReposViewHolder(private val binding: RepositorieItemBinding): BaseViewHolder<RepositoriesItemModel>(binding.root) {
         override fun bind(item: RepositoriesItemModel, position: Int) {
-            binding.tvAuthorName.text = item.name
-            binding.tvRepoName.text = item.full_name
+            with(binding) {
+                tvAuthorName.text = item.name
+                tvRepoName.text = item.full_name
+                Glide.with(context)
+                    .load(item.owner.avatar_url)
+                    .into(ivRepoOwner)
+            }
         }
     }
 }
