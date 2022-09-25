@@ -4,5 +4,5 @@ import com.example.bankuishchallenge.mainscreen.data.model.ReposListResponse
 
 sealed class UiState {
     class UIShowLoading(val isShow: Boolean) : UiState()
-    class RepositoriesList(val listOfRepos: List<ReposListResponse>) : UiState()
+    class RepositoriesList(val listOfRepos: ReposListResponse) : UiState()
 }

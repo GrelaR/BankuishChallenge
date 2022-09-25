@@ -2,10 +2,9 @@ package com.example.bankuishchallenge.mainscreen.data.model
 
 
 import androidx.annotation.Keep
+import java.io.Serializable
 
 @Keep
-@Serializable
-
 data class RepositoriesItemModel(
     val allow_forking: Boolean,
     val archive_url: String,
@@ -83,4 +82,4 @@ data class RepositoriesItemModel(
     val watchers: Int,
     val watchers_count: Int,
     val web_commit_signoff_required: Boolean
-)
+) : Serializable

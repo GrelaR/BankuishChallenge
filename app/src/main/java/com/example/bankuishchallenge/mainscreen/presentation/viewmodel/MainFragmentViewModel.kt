@@ -22,16 +22,27 @@ class MainFragmentViewModel @Inject constructor(
     fun initGetRepos() {
         viewModelScope.launch {
             _getReposResult.postValue(UiState.UIShowLoading(true))
-            when (
-                val result = getReposUseCase.invoke()
-            ) {
-                is Result.Success -> {
-                    _getReposResult.postValue(UiState.UIShowLoading(false))
+            val result = getReposUseCase.invoke()
+            if(result.isSuccessful) {
+                _getReposResult.postValue(UiState.UIShowLoading(false))
+                result.body().let {
+                    it?.let {
+                        _getReposResult.postValue(UiState.RepositoriesList(it))
+                    }
                 }
-                is Result.Error -> {
-                    manageError(result.error)
-                }
+            } else {
+
             }
+//            when (
+//                val result = getReposUseCase.invoke()
+//            ) {
+//                is Result.Success -> {
+//                    _getReposResult.postValue(UiState.UIShowLoading(false))
+//                }
+//                is Result.Error -> {
+//                    manageError(result.error)
+//                }
+//            }
 
         }
     }
