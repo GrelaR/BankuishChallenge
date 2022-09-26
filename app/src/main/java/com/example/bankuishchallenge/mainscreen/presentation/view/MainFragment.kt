@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.cardview.widget.CardView
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
@@ -11,6 +12,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.bankuishchallenge.databinding.MainFragmentBinding
 import com.example.bankuishchallenge.mainscreen.data.model.ReposListResponse
+import com.example.bankuishchallenge.mainscreen.data.model.RepositoriesItemModel
 import com.example.bankuishchallenge.mainscreen.presentation.adapter.RecyclerAdapter
 import com.example.bankuishchallenge.mainscreen.presentation.model.UiState
 import com.example.bankuishchallenge.mainscreen.presentation.viewmodel.MainFragmentViewModel
@@ -22,7 +24,6 @@ class MainFragment : Fragment(), RecyclerAdapter.OnRepoClickListener {
     private val binding get() = _binding!!
 
     private val mainFragmentViewModel: MainFragmentViewModel by viewModels()
-    private lateinit var adapter: RecyclerAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -52,6 +53,7 @@ class MainFragment : Fragment(), RecyclerAdapter.OnRepoClickListener {
                     showLoading(it.isShow)
                 }
                 is UiState.RepositoriesList -> {
+                    showLoading(false)
                     setAdapter(it.listOfRepos)
                 }
             }
@@ -67,8 +69,8 @@ class MainFragment : Fragment(), RecyclerAdapter.OnRepoClickListener {
         binding.recyclerView.adapter = RecyclerAdapter(requireContext(), data.items, this)
     }
 
-    override fun onRepoClick(view: View) {
-        val directions = MainFragmentDirections.actionMainFragmentToRepoDetailFragment()
+    override fun onRepoClick(item: RepositoriesItemModel) {
+        val directions = MainFragmentDirections.actionMainFragmentToRepoDetailFragment(item)
         findNavController().navigate(directions)
     }
 

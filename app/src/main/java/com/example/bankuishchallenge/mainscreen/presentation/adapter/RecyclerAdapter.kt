@@ -2,7 +2,6 @@ package com.example.bankuishchallenge.mainscreen.presentation.adapter
 
 import android.content.Context
 import android.view.LayoutInflater.from
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -32,7 +31,7 @@ class RecyclerAdapter(
         override fun bind(item: RepositoriesItemModel, position: Int) {
             with(binding) {
                 cardView.setOnClickListener {
-                    itemClickListener.onRepoClick(it)
+                    itemClickListener.onRepoClick(item)
                 }
                 tvAuthorName.text = item.name
                 tvRepoName.text = item.full_name
@@ -44,6 +43,6 @@ class RecyclerAdapter(
     }
 
     interface OnRepoClickListener {
-        fun onRepoClick(view: View)
+        fun onRepoClick(item: RepositoriesItemModel)
     }
 }

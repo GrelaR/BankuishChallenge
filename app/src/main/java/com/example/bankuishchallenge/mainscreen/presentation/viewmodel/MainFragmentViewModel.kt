@@ -24,14 +24,11 @@ class MainFragmentViewModel @Inject constructor(
             _getReposResult.postValue(UiState.UIShowLoading(true))
             val result = getReposUseCase.invoke()
             if(result.isSuccessful) {
-                _getReposResult.postValue(UiState.UIShowLoading(false))
                 result.body().let {
                     it?.let {
                         _getReposResult.postValue(UiState.RepositoriesList(it))
                     }
                 }
-            } else {
-
             }
 //            when (
 //                val result = getReposUseCase.invoke()
