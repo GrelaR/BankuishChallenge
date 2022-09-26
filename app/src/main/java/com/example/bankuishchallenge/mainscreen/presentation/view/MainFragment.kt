@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.bankuishchallenge.databinding.MainFragmentBinding
 import com.example.bankuishchallenge.mainscreen.data.model.ReposListResponse
@@ -16,12 +17,12 @@ import com.example.bankuishchallenge.mainscreen.presentation.viewmodel.MainFragm
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class MainFragment : Fragment() {
+class MainFragment : Fragment(), RecyclerAdapter.OnRepoClickListener {
     private var _binding: MainFragmentBinding? = null
     private val binding get() = _binding!!
 
-    val mainFragmentViewModel: MainFragmentViewModel by viewModels()
-    private lateinit var adapter:RecyclerAdapter
+    private val mainFragmentViewModel: MainFragmentViewModel by viewModels()
+    private lateinit var adapter: RecyclerAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -38,7 +39,7 @@ class MainFragment : Fragment() {
     }
 
     private fun setupRecyclerView() {
-       binding.recyclerView.layoutManager = LinearLayoutManager(requireContext())
+        binding.recyclerView.layoutManager = LinearLayoutManager(requireContext())
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -56,15 +57,19 @@ class MainFragment : Fragment() {
             }
         }
 
-
-
     }
-    private fun showLoading(isShow: Boolean)  {
+
+    private fun showLoading(isShow: Boolean) {
         binding.loading.isVisible = isShow
     }
 
-    private fun setAdapter(data: ReposListResponse)  {
-        binding.recyclerView.adapter = RecyclerAdapter(requireContext(), data.items)
+    private fun setAdapter(data: ReposListResponse) {
+        binding.recyclerView.adapter = RecyclerAdapter(requireContext(), data.items, this)
+    }
+
+    override fun onRepoClick(view: View) {
+        val directions = MainFragmentDirections.actionMainFragmentToRepoDetailFragment()
+        findNavController().navigate(directions)
     }
 
 
