@@ -1,6 +1,6 @@
 package com.example.bankuishchallenge.mainscreen.network
 
-import com.example.bankuishchallenge.mainscreen.data.model.ReposListResponse
+import com.example.bankuishchallenge.mainscreen.presentation.model.ReposListResponse
 import retrofit2.Response
 import retrofit2.http.GET
 

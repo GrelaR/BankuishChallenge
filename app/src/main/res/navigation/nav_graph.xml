@@ -28,6 +28,6 @@
         >
         <argument
             android:name="repoInfo"
-            app:argType="com.example.bankuishchallenge.mainscreen.data.model.RepositoriesItemModel" />
+            app:argType="com.example.bankuishchallenge.mainscreen.presentation.model.RepositoriesItemModel" />
     </fragment>
 </navigation>

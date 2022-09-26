@@ -1,4 +1,4 @@
-package com.example.bankuishchallenge.mainscreen.data.model
+package com.example.bankuishchallenge.mainscreen.presentation.model
 
 import androidx.annotation.Keep
 

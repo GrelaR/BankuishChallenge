@@ -1,6 +1,6 @@
 package com.example.bankuishchallenge.core.di
 
-import com.example.bankuishchallenge.mainscreen.data.model.repository.ReposImplementation
+import com.example.bankuishchallenge.mainscreen.domain.repository.ReposImplementation
 import com.example.bankuishchallenge.mainscreen.data.repository.GetReposRepository
 import com.example.bankuishchallenge.mainscreen.network.RepositoriesApiService
 import dagger.Module
@@ -11,7 +11,6 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
 @Module

@@ -4,15 +4,14 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.cardview.widget.CardView
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.bankuishchallenge.databinding.MainFragmentBinding
-import com.example.bankuishchallenge.mainscreen.data.model.ReposListResponse
-import com.example.bankuishchallenge.mainscreen.data.model.RepositoriesItemModel
+import com.example.bankuishchallenge.mainscreen.presentation.model.ReposListResponse
+import com.example.bankuishchallenge.mainscreen.presentation.model.RepositoriesItemModel
 import com.example.bankuishchallenge.mainscreen.presentation.adapter.RecyclerAdapter
 import com.example.bankuishchallenge.mainscreen.presentation.model.UiState
 import com.example.bankuishchallenge.mainscreen.presentation.viewmodel.MainFragmentViewModel

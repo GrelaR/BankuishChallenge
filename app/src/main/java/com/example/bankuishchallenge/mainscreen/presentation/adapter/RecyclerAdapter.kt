@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.bankuishchallenge.core.BaseViewHolder
 import com.example.bankuishchallenge.databinding.RepositorieItemBinding
-import com.example.bankuishchallenge.mainscreen.data.model.RepositoriesItemModel
+import com.example.bankuishchallenge.mainscreen.presentation.model.RepositoriesItemModel
 
 class RecyclerAdapter(
     private val context: Context,

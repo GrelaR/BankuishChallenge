@@ -1,6 +1,6 @@
-package com.example.bankuishchallenge.mainscreen.data.model.repository
+package com.example.bankuishchallenge.mainscreen.domain.repository
 
-import com.example.bankuishchallenge.mainscreen.data.model.ReposListResponse
+import com.example.bankuishchallenge.mainscreen.presentation.model.ReposListResponse
 import com.example.bankuishchallenge.mainscreen.data.repository.GetReposRepository
 import com.example.bankuishchallenge.mainscreen.network.RepositoriesApiService
 import kotlinx.coroutines.Dispatchers
