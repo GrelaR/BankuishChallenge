@@ -32,12 +32,10 @@
   <p align="center">
     An app with my solution to the challenge!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/GrelaR/BankuishChallenge/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/GrelaR/BankuishChallenge/issues">Report Bug</a>
+   <a href="https://github.com/GrelaR/BankuishChallenge/issues">Report Bug</a>
     ·
     <a href="https://github.com/GrelaR/BankuishChallenge/pulls">Request Feature</a>
   </p>
