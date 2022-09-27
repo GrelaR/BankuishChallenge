@@ -176,7 +176,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/GrelaR](https://github.com/GrelaR)
+Github profile: [github](https://github.com/GrelaR)
+linkedin profile: [linkedin]([https://github.com/GrelaR](https://www.linkedin.com/in/rodrigogrela/))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
