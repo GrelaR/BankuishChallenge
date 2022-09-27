@@ -108,13 +108,12 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone git@github.com:GrelaR/BankuishChallenge.git
    ```
-3. Open it on android studio
-4. Run it on the device you have setup.
+2. Open it on android studio
+3. Run it on the device you have setup.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
