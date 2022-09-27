@@ -32,7 +32,7 @@
   <p align="center">
     An app with my solution to the challenge!
     <br />
-    <a href="https://github.com/GrelaR/BankuishChallenge/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/GrelaR/BankuishChallenge#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
    <a href="https://github.com/GrelaR/BankuishChallenge/issues">Report Bug</a>
