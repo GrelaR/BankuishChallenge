@@ -101,12 +101,9 @@ Here's why:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * You should have android studio installed on your computer and an emulator device set up.
 
 ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Clone the repo
    ```sh
