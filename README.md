@@ -131,13 +131,13 @@ The project is about retrieving data from an api and displaying it on a list, ea
 - [x] Screens designs
 - [x] Getting the data from the api and parsing it
 - [x] Displaying the data in a list
-- [x] Implementing MVVM
-- [x] Implementing Clean Arquitecture
-- [x] Implementing Solid Principles
-- [x] Implementing Dependencie Injection
-- [ ] Add testing
-- [ ] Add error handling
-- [ ] Add paginator
+- [x] MVVM
+- [x] Clean Arquitecture
+- [x] Solid Principles
+- [x] Dependencie Injection
+- [ ] testing
+- [ ] error handling
+- [ ] paginator
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,19 +177,6 @@ linkedin profile: [linkedin](https://www.linkedin.com/in/rodrigogrela/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+
 [android-url]: https://developer.android.com/studio?hl=es-419
 
