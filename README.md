@@ -168,7 +168,7 @@ Don't forget to give the project a star! Thanks again!
 
 Github profile: [github](https://github.com/GrelaR)
 
-linkedin profile: [linkedin](https://github.com/GrelaR](https://www.linkedin.com/in/rodrigogrela/)
+linkedin profile: [linkedin](https://www.linkedin.com/in/rodrigogrela/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
