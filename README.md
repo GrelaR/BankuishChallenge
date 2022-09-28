@@ -128,7 +128,9 @@ The project is about retrieving data from an api and displaying it on a list, ea
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add libraries and dependencies
+- [x] Screens designs
+- [x] Getting the data from the api and parsing it
+- [x] Displaying the data in a list
 - [x] Implementing MVVM
 - [x] Implementing Clean Arquitecture
 - [x] Implementing Solid Principles
@@ -158,12 +160,6 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
