@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/GrelaR/BankuishChallenge">
-    <img src="https://github.com/GrelaR/GrelaR/blob/main/androidLogo.png" alt="Logo" width="300" height="100">
+    <img src="https://github.com/GrelaR/GrelaR/blob/main/androidLogo.png" alt="Logo" width="300" height="200">
   </a>
 
   <h3 align="center">Bankuish challenge app</h3>
