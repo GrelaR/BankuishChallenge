@@ -87,10 +87,10 @@ Here's why:
 
 ### Built With
 
-* [![Android Studio][android-icon][android-url]
-* [![Kotlin][Kotlin]][kotlin-icon][kotlin-url]
-* [![Retrofit][Retrofit][retrofit-url]
-* [![Gson][Gson]][gson-url]
+* Android sdk
+* Kotlin
+* Retrofit
+* Gson
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,9 +177,4 @@ linkedin profile: [linkedin](https://www.linkedin.com/in/rodrigogrela/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[android-url]: https://developer.android.com/studio?hl=es-419
-[android-icon]: https://github.com/GrelaR/GrelaR/blob/main/androide.png
-[kotlin-url]" https://kotlinlang.org/
-[kotlin-icon]: https://github.com/GrelaR/GrelaR/blob/main/lenguaje-de-programacion.png
 
