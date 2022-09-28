@@ -87,8 +87,8 @@ Here's why:
 
 ### Built With
 
-* [![Android Studio][Android Studio]][android-studio-url]
-* [![Kotlin][Kotlin]][kotlin-url]
+* [![Android Studio][android-icon][android-url]
+* [![Kotlin][Kotlin]][kotlin-icon][kotlin-url]
 * [![Retrofit][Retrofit][retrofit-url]
 * [![Gson][Gson]][gson-url]
 
