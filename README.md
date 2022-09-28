@@ -179,4 +179,7 @@ linkedin profile: [linkedin](https://www.linkedin.com/in/rodrigogrela/)
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [android-url]: https://developer.android.com/studio?hl=es-419
+[android-icon]: https://github.com/GrelaR/GrelaR/blob/main/androide.png
+[kotlin-url]" https://kotlinlang.org/
+[kotlin-icon]: https://github.com/GrelaR/GrelaR/blob/main/lenguaje-de-programacion.png
 
