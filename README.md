@@ -134,7 +134,7 @@ The project is about retrieving data from an api and displaying it on a list, ea
 - [x] MVVM
 - [x] Clean Arquitecture
 - [x] Solid Principles
-- [x] Dependencie Injection
+- [x] dependency Injection
 - [ ] testing
 - [ ] error handling
 - [ ] paginator
